@@ -26,8 +26,49 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+        <div class="col-md-7 bg-snacks m-3 rounded">
+          <div class="row text-center">
+            <h3>SNACKS BALL VENDING MACHINE</h3>
+          </div>
+          <div class="row mt-4">
+            <h5>TOTAL MONEY: $<span id="money">0</span></h5>
+          </div>
+          <div id="snacks" class="row justify-content-evenly">
+            <!-- <div class="col-6">
+              <h4>Snack 1</h4>
+              <div class="img-fluid">
+                Image
+              </div>
+              <p>Price | Energy</p>
+              <h4>Snack 2</h4>
+            </div>
+            <div class="col-6">
+              <h4>Snack 3</h4>
+              <h4>Snack 4</h4>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-4 list-area text-light my-3 rounded">
+          <div class="row justify-content-between">
+            <h3 class="col-12 d-flex align-items-center justify-content-between "><u>ITEM LIST AREA</u>
+              <button class="btn btn-primary my-3" onclick="app.snacksController.getMoney()">ADD .25</button>
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-5">Name</div>
+            <div class="col-7">Price</div>
+          </div>
+          <div id="bought-snacks" class="row">
+            <!-- bought snacks template -->
+
+
+
+
+
+
+
+
+          </div>
         </div>
       </div>
     </div>

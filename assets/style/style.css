@@ -1,1 +1,27 @@
-/* BASIC STYLES HERE */
+body{
+  background-color: rgb(86, 81, 90);
+  color: rgb(19, 17, 13);
+}
+
+.bg-snacks{
+  background-color: rgb(51, 74, 92);
+}
+
+.snacks-card{
+  background-color: bisque;
+  border-radius: 5%;
+}
+
+.list-area{
+  background-color: rgb(41, 36, 36);
+}
+
+.btn{
+  background-color: bisque!important;
+  color: rgb(14, 16, 17);
+}
+
+.btn:hover{
+  background-color: rgb(51, 74, 92)!important;
+  color: bisque;
+}
